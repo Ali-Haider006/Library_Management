@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management</title>
+</head>
+<body>
+    <header>Library Management</header>
+    <h3>Book Management</h3>
+
+
+        <form action="">
+            <h4>Add Book</h4>
+            <div class="grid">
+            <label for="Name">Name</label>
+            <input type="text" name="Name" id="Name" placeholder="Name">
+            <label for="Author">Author</label>
+            <input type="text" name="Author" id="Author" placeholder="Author" >
+            <label for="Publisher" >Publisher</label>
+            <input type="text" name="Publisher" id="Publisher" placeholder="Publisher">
+            <label for="Date">Date</label>
+            <input type="date" name="Date" id="Date">
+        </div>
+            <button id="AddBook"> Add Book</button>
+
+        </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Sr</th>
+                <th>Book</th>
+                <th>Author</th>
+                <th>Publisher</th>
+                <th>Publishing Date</th>   
+                <th>Edit</th>
+                <th>Delete</th> 
+            </tr>
+        </thead>
+
+
+        <tbody id="table-data">
+            <!-- <tr>
+                <th>1</th>
+                <th>1984</th>
+                <th>George Orwell</th>
+                <th>Peguin Publishers</th>  
+                <th>12-03-1914</th>    
+                <th><button>Edit</button></th>
+                <th><button>Delete</button></th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>Animal Farm</th>
+                <th>George Orwell</th>
+                <th>Peguin Publishers</th>
+                <th>12-03-1917</th>    
+                <th><button>Edit</button></th>
+                <th><button>Delete</button></th>
+            </tr> -->
+        </tbody> 
+    </table>
+    
+    <p>Books available in Library</p>
+    
+   <div class="buttons">
+    <a href="../Index Page/index.html" target="_blank"><button id="Home">Home </button></a>
+    <button id="Author">Author</button>
+    <button id="Publishers">Publishers</button>
+   </div> 
+
+   <script src="scripts.js"></script>
+</body>
+
+</html>

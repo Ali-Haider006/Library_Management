@@ -1,0 +1,144 @@
+header{
+    background: rgb(201, 150, 12);
+    color: white;    
+    padding: 20px 10px;
+    font-size: xx-large;
+}
+.Book-list{
+    max-width: 100%;
+}
+p{
+    text-align: center;
+}
+.buttons{
+    width: 50%;
+    margin: auto ;
+
+    margin-left: 50%;
+
+    
+}
+button{
+    background-color: rgb(201, 150, 12);
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: rgb(201, 150, 12);
+    
+}
+
+body {
+    font-family: Arial, sans-serif; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20px ;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+}
+thead *{
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(201, 150, 12); 
+    color: white; 
+    
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* ---------------------------------------------------- */
+/* Apply a reset to remove default browser styles */
+ h4, form, label, input{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 20px;
+  } */
+  
+  form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+
+  .grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+  }
+  .grid label{
+    margin-top: 10%;
+  }
+  .grid input{
+    width: 80%;
+  }
+  
+  form button{
+    margin-left: 30%;
+  }
+  /* button {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+  } */
+  
+  button:hover {
+    background-color: #005f94;
+  }
+  
+/* ------------------------------------------------------- */
+/* form{
+    padding: 0% 40%;
+
+    max-width: 40%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+
+} */

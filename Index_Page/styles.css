@@ -1,0 +1,54 @@
+header{
+    background: rgb(201, 150, 12);
+    color: white;    
+    padding: 20px 10px;
+    font-size: xx-large;
+}
+.Book-list{
+    max-width: 100%;
+}
+p{
+    text-align: center;
+}
+.buttons{
+    width: 50%;
+    margin: auto ;
+
+    
+}
+.buttons button{
+    background-color: rgb(201, 150, 12);
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: rgb(201, 150, 12);
+    
+}
+
+body {
+    font-family: Arial, sans-serif; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+}
+thead *{
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(201, 150, 12); 
+    color: white; 
+    
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
